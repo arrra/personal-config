@@ -66,6 +66,10 @@ let g:ctrlp_map = '<c-p>'
 "neocomplcache
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 inoremap <expr><Space> pumvisible() ? neocomplcache#close_popup() : "\<Space>"
+nmap <Leader>a= :Tabularize /=<CR>
+vmap <Leader>a= :Tabularize /=<CR>
+nmap <Leader>a: :Tabularize /:\zs<CR>
+vmap <Leader>a: :Tabularize /:\zs<CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""
